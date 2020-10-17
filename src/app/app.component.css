@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin: 2%;
+    color: white;
+    background: linear-gradient(to left, #3399ff 0%, #0033cc 100%);
+    padding: 2% 1.5%;
+    font-weight: 800;
+    font-size: 3.5vw;
+}
+
+h1:hover{
+    background: linear-gradient(to right, #3399ff 0%, #0033cc 100%);
+}
+
+@media(max-width:767.5px){
+    h1{
+        font-size: 5.5vw;
+    }
+}
+
+@media(max-width:696.5px){
+    h1{
+        font-size: 6.5vw;
+    }
+}
+
+@media(max-width:596.5px){
+    h1{
+        font-size: 8vw;
+        padding: 5% 1.5%;
+    }
+}
+
+@media(max-width:496.5px){
+    h1{
+        font-size: 8.4vw;
+        padding: 7% 1.5%;
+    }
+}

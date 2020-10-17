@@ -1,0 +1,68 @@
+.panel{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);
+    color: white;
+    padding: 15%;
+    margin: 2%;
+    border-radius: 15px;
+    text-align: center;
+    height: 480px;
+}
+
+h5,label{
+    margin-top:25% ;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #318ce7;
+}
+
+.btn{
+    background: linear-gradient(to right, #3399ff 0%, #0033cc 100%);
+    color: #fff;
+    box-shadow: 0px 2.5px 2px 0px rgba(13,163,143,0.5);
+    font-weight: 700;
+    text-shadow: 2px 4px 4px  #031a5f;
+}
+
+.btn:hover{
+    background: linear-gradient(to left, #3399ff 0%, #0033cc 100%);
+}
+
+input{
+    margin-bottom: 17.5%;
+}
+
+.panel-row{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0.6%;
+    font-size: 20px;
+}
+
+.sun{
+    color: yellow;
+    filter: drop-shadow( 1px 1px 10px yellow);
+}
+
+.moon{
+    color: white;
+    filter: drop-shadow( 1px 1px 10px white);
+}
+
+.cloud-div{
+    margin-top: -40px;
+}
+
+.cloud{
+    color: rgb(104, 175, 197);
+    filter: drop-shadow( 1px 1px 5px rgb(104, 175, 197));
+    animation-name: Moving;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes Moving{
+    from{margin-left: -55px;}
+    to{margin-left: 65px;}
+}
